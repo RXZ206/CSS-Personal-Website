@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 125%;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Indie Flower", cursive;
+  font-size: 5.625rem;
+  color: #019393;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #019393;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #31babf;
+}
+
+hr {
+  border-style: none;
+  border-top: 5px dotted white;
+  width: 10%;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+a {
+  color: #f99c11;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #f97511;
+}
+
+/*top container*/
+.top-container {
+  background-color: #7fdbda;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 175px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 150px;
+}
+
+.mountain {
+  width: 15%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.programmer-text {
+  font-weight: normal;
+  line-height: normal;
+}
+/*top container*/
+
+/*middle container*/
+.middle-container {
+  background-color: #ade498;
+}
+.intro {
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
+
+.skill-row {
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.snowboarding-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.music-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.get-in-touch {
+  width: 50%;
+  margin: 50px auto 20px auto;
+}
+/*middle container*/
+
+/*bottom container*/
+.bottom-container {
+  padding: 10px 0 20px;
+  background-color: #ede682;
+  font-size: 75%;
+}
+
+.email {
+  color: #31babf;
+}
+
+.email:hover {
+    color: #068e8e; 
+}
+
+.flaticon {
+  margin-top: 20px;
+}
+
+.copyright {
+    color: #9b9b9b97;
+}
